@@ -10,6 +10,7 @@ public class loginAutomationTest {
         WebDriver driver = new ChromeDriver();
         driver.get("http://training.skillo-bg.com:4200/users/login");
 
+
         WebElement username = driver.findElement(By.xpath("//input[@id='defaultLoginFormUsername']"));
         username.sendKeys("vladislav.poshta@gmail.com");
 
